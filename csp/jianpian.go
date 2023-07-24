@@ -155,7 +155,7 @@ func (spider *JianPianSpider) Detail(id string) common.DetailResponse {
 		VodYear:     response.Data.Year.Title,
 		VodArea:     response.Data.Area.Title,
 		VodContent:  response.Data.Description,
-		VodPlayFrom: "七夜-荐片",
+		VodPlayFrom: "七夜",
 		VodPlayURL:  strings.Join(urls, "$$$"),
 	})
 	detailResponse := common.DetailResponse{
